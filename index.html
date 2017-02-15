@@ -30,7 +30,12 @@
     </head>
     <body id="page-top" class="index">
 
-		<!-- Header -->
+        <!-- Loader -->
+<div id="loader">
+	<h3 class="loader-header">Загрузка</h3>
+</div>
+
+        <!-- Header -->
 <header>
     <div class="container">
         <div class="row">
@@ -40,7 +45,7 @@
         </div>
     </div>
 </header>
-        
+
         <!-- Portfolio Grid Section -->
 <section id="portfolio">
     <div class="container">
@@ -321,9 +326,6 @@
 							
 							
 								
-								<img src="img/cardiobugger/cardiobugger1.png" alt="Подключение к модулю в Windows" />										
-							
-								
 								<img src="img/cardiobugger/cardiobugger2.png" alt="Всплывающее сообщение об ошибке" />										
 							
 								
@@ -331,6 +333,9 @@
 							
 								
 								<img src="img/cardiobugger/cardiobugger4.png" alt="Работа приложения под Android" />										
+							
+								
+								<img src="img/cardiobugger/cardiobugger1.png" alt="Подключение к модулю в Windows" />										
 							
 						</div>
 						
@@ -378,6 +383,9 @@
 							
 							
 								
+								<img src="img/teriya/teriya4.png" alt="Главное окно программы" />										
+							
+								
 								<img src="img/teriya/teriya5.png" alt="Тренд полученных от датчика значений" />										
 							
 								
@@ -388,9 +396,6 @@
 							
 								
 								<img src="img/teriya/teriya3.png" alt="Просмотр показания датчика с указанием места его установки" />										
-							
-								
-								<img src="img/teriya/teriya4.png" alt="Главное окно программы" />										
 							
 						</div>
 						
@@ -438,10 +443,10 @@
 							
 							
 								
-								<img src="img/linetion/linetion2.png" alt="Выбор подстанция для наблюдения" />										
+								<img src="img/linetion/linetion1.png" alt="Ввод логина и пароля" />										
 							
 								
-								<img src="img/linetion/linetion1.png" alt="Ввод логина и пароля" />										
+								<img src="img/linetion/linetion2.png" alt="Выбор подстанция для наблюдения" />										
 							
 						</div>
 						
@@ -489,6 +494,9 @@
 							
 							
 								
+								<img src="img/trackwit/trackwit2.png" alt="" />										
+							
+								
 								<img src="img/trackwit/trackwit3.png" alt="" />										
 							
 								
@@ -496,9 +504,6 @@
 							
 								
 								<img src="img/trackwit/trackwit1.png" alt="" />										
-							
-								
-								<img src="img/trackwit/trackwit2.png" alt="" />										
 							
 						</div>
 						
@@ -536,6 +541,13 @@
 <!-- Image slider JavaScript -->
 <script src="https://www.ivangrinko.com/js/js-image-slider.js"></script>
 <script src="https://www.ivangrinko.com/js/js-image-slider-view-controll.js"></script>
+
+<!-- Loader JavaScript -->
+<script>
+$(window).load(function() {
+	$("#loader").fadeOut(0);
+});
+</script>
 
 
     </body>
