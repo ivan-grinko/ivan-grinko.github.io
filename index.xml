@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Портфолио Ивана Гринько</title>
-    <link>https://www.ivangrinko.com/</link>
+    <link>http://www.ivangrinko.com/</link>
     <description>Recent content on Портфолио Ивана Гринько</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-RU</language>
-    <atom:link href="https://www.ivangrinko.com/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://www.ivangrinko.com/index.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

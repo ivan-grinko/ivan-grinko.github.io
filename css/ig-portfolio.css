@@ -469,6 +469,5 @@ footer .footer-below {
 	z-index: 9999;
 	background: url(../img/loader.gif) center no-repeat #fff;
 }
-
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
